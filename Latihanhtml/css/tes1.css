@@ -1,0 +1,36 @@
+.box {
+    transition: 1s;
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    color: red;
+    font-size: 20pt;
+    top: 20px;
+    left: 20px;
+    position: relative;
+}
+
+
+.box:hover {
+    height: 200px;
+    width: 200px;
+    font-size: 40pt;
+    font-style: italic;
+    margin: 50px;
+    color:white;
+    background-color: aqua;
+    transform: rotate(3600deg);
+}
+
+input:focus {
+    background-color: lightgreen;
+    }
+
+input:hover {
+    background-color: orange;
+}
+
+.box:active{
+    background-color: black;
+}
